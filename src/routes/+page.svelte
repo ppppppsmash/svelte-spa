@@ -1,4 +1,5 @@
 <script>
+  import PrefaceLogo from "../components/Logo/PrefaceLogo.svelte";
 </script>
 
 <svelte:head>
@@ -6,6 +7,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
+<PrefaceLogo />
 <section>
 	<h1>Top Page</h1>
 	<ul>
