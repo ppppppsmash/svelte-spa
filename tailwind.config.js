@@ -9,6 +9,7 @@ export default {
       'primary': '#0A338A',
       'f-primary': '#333333',
       'white': '#FFF',
+      'black': '#333',
       'good': '#E5445F',
     },
     extend: {
@@ -51,5 +52,7 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-text-fill-stroke'),
+  ],
 }
