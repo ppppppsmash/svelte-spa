@@ -3,6 +3,7 @@
   import { Splide, SplideSlide } from '@splidejs/svelte-splide';
   import '@splidejs/svelte-splide/css';
   import Logo from '../Logo/Logo.svelte'
+  import Scroll from './ScrollEncourage.svelte';
 
   let sliderImages = [];
   let suffix_pc = "pc";
@@ -36,6 +37,8 @@
         わかりにくいものを<br class="block sm:hidden">わかりやすく</p>
     </div>
   </div>
+
+  <Scroll />
 
   <div class="fixed top-0 left-0 -z-10 w-full h-full">
     {#if sliderImages.length}
