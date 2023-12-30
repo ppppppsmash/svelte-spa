@@ -12,6 +12,8 @@
 		"@fontsource/fira-mono": "^4.5.10",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-static": "^3.0.1",
+		"@sveltejs/enhanced-img": "^0.1.7",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"autoprefixer": "^10.4.16",
@@ -29,6 +31,7 @@
 		"node": "20.10.0"
 	},
 	"dependencies": {
+		"@splidejs/svelte-splide": "^0.2.9",
 		"ress": "^5.0.2"
 	}
 }
