@@ -30,11 +30,15 @@
     <div
       class="relative border-0 before:absolute before:left-0 before:top-0 before:w-8 before:h-20 before:border-2 before:border-b-0
       before:border-r-0 after:absolute after:right-0 after:bottom-0 after:w-8 after:h-20 after:border-2 after:border-t-0
-      after:border-l-0
+      after:border-l-0 px-6 py-9
     "
     >
-      <p class="px-6 py-9 text-[28px] sm:text-[40px] font-semibold title-outline">見えないものを<br class="block sm:hidden">見えるように<br>
-        わかりにくいものを<br class="block sm:hidden">わかりやすく</p>
+      <p class="text-[28px] sm:text-[40px] font-semibold title-outline leading-[1.3] mb-3 sm:mb-0">
+        見えないものを<br class="block sm:hidden">見えるように
+      </p>
+      <p class="text-[28px] sm:text-[40px] font-semibold title-outline leading-[1.3]">
+        わかりにくいものを<br class="block sm:hidden">わかりやすく
+      </p>
     </div>
   </div>
 

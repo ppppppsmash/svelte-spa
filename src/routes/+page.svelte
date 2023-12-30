@@ -4,6 +4,7 @@
   import PrefaceLogo from '../components/Logo/PrefaceLogo.svelte';
   import MainPanelSlider from '../components/MainPanel/MainPanelSlider.svelte';
   import CountUp from '../components/Count/CountUp.svelte';
+  import MainContents from '../components/MainContents/MainContents.svelte';
 
   let showPrefaceLogo = true;
 
@@ -26,3 +27,5 @@
 {/if}
 
 <MainPanelSlider />
+
+<MainContents />

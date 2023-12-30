@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin');
+
 export default {
   content: [
     './src/*.{html,js,svelte,ts}',
@@ -7,6 +9,7 @@ export default {
   theme: {
     colors: {
       'primary': '#0A338A',
+      'secondary': '#208CE5',
       'f-primary': '#333333',
       'white': '#FFF',
       'black': '#333',
@@ -70,5 +73,19 @@ export default {
   },
   plugins: [
     require('tailwindcss-text-fill-stroke'),
+    plugin(function ({ addUtilities, addComponents, e, prefix, config }) {
+      const newUtilities = {
+        '.horizontal-tb': {
+          writingMode: 'horizontal-tb',
+        },
+        '.vertical-rl': {
+          writingMode: 'vertical-rl',
+        },
+        '.vertical-lr': {
+          writingMode: 'vertical-lr',
+        },
+      };
+      addUtilities(newUtilities);
+    }),
   ],
 }
