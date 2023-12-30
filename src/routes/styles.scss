@@ -16,3 +16,30 @@
 	font-family: var(--font-body);
 	color: var(--color-text);
 }
+
+.splide {
+	.splide__slide {
+		&.is-visible {
+      img {
+        animation: mainvisual-zoom-out 5s linear 0s both;
+      }
+		}
+
+    &.is-prev,
+    &.is-next {
+      img {
+        animation: none;
+      }
+    }
+	}
+}
+
+
+@keyframes mainvisual-zoom-out {
+  0% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

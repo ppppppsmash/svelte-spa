@@ -1,21 +1,28 @@
 <script>
-  import PrefaceLogo from "../components/Logo/PrefaceLogo.svelte";
+	import { onMount } from 'svelte';
+
+  import PrefaceLogo from '../components/Logo/PrefaceLogo.svelte';
+  import MainPanelSlider from '../components/MainPanel/MainPanelSlider.svelte';
+  import CountUp from '../components/Count/CountUp.svelte';
+
+  let showPrefaceLogo = true;
+
+  const removePrefaceLogo = () => {
+    showPrefaceLogo = false;
+  };
+
+  onMount(() => {
+    setTimeout(removePrefaceLogo, 2400);
+  })
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Statement</title>
+	<meta name="description" content="Webcrew 新規コーポーレートページ" />
 </svelte:head>
 
+{#if showPrefaceLogo}
 <PrefaceLogo />
-<section>
-	<h1>Top Page</h1>
-	<ul>
-		<li>1</li>
-		<li>2</li>
-		<li>3</li>
-	</ul>
-</section>
+{/if}
 
-<style lang="scss">
-</style>
+<MainPanelSlider />
