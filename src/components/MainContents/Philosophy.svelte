@@ -10,7 +10,7 @@
           <h2 class="text-primary font-light text-[74px] sm:text-[145px]">
             Philosophy
           </h2>
-          <div class="mt-8 mb-10 sm:mb-0">
+          <div class="mt-1 sm:mt-8 mb-10 sm:mb-0">
             <p class="text-primary">経営理念</p>
             <div class="relative w-16 mx-auto mt-1 border-b-2 text-secondary before:absolute before:w-8 before:border-b-2
               before:-bottom-0.5 sm:before:left-0 before:h-[inherit] before:text-primary before:z-30" />
@@ -25,10 +25,10 @@
           "
           >
             <div class="font-bold">
-              <p class="text-primary text-[28px] sm:text-[40px] title-outline leading-[1.3] mb-3 sm:mb-0">
+              <p class="text-primary text-[22px] sm:text-[28px] title-outline leading-[1.3] mb-3">
                 見えないものを<br class="block sm:hidden">見えるように
               </p>
-              <p class="text-primary text-[28px] sm:text-[40px] title-outline leading-[1.3]">
+              <p class="text-primary text-[22px] sm:text-[28px] title-outline leading-[1.3]">
                 わかりにくいものを<br class="block sm:hidden">わかりやすく
               </p>
 

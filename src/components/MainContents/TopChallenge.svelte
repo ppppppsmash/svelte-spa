@@ -10,7 +10,7 @@
       </p>
     </div>
     <div class="row-start-1 row-span-2 text-black text-[17px] sm:text-[19px] leading-[2] sm:leading-[2.2]
-      font-semibold sm:font-bold sm:mt-[130px] tracking-widest"
+      font-semibold sm:font-bold sm:mt-[130px] tracking-wide"
     >
       <div class="relative w-16 border-t-2 text-secondary mb-8 before:absolute before:w-8 before:border-t-2
         before:bottom-0 before:left-0 before:h-[inherit] before:text-primary before:z-30"
