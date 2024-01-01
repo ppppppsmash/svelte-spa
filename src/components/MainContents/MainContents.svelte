@@ -2,6 +2,7 @@
   import TopChallenge from './TopChallenge.svelte';
   import Philosophy from './Philosophy.svelte';
   import Vision from './Vision.svelte';
+  import Guideline from './Guideline.svelte';
 </script>
 
 <section class="bg-white">
@@ -9,5 +10,6 @@
     <TopChallenge />
     <Philosophy />
     <Vision />
+    <Guideline />
   </div>
 </section>

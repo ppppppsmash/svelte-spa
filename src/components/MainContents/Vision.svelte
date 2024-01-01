@@ -25,10 +25,10 @@
           "
           >
             <div class="font-bold">
-              <p class="text-primary text-[22px] sm:text-[28px] title-outline leading-[1.3] mb-3">
+              <p class="text-primary text-[22px] sm:text-[28px] leading-[1.3] mb-3">
                 どこよりもはやく<br class="block sm:hidden">どこよりもかんたんに<br class="block sm:hidden">
               </p>
-              <p class="text-primary text-[22px] sm:text-[28px] title-outline leading-[1.3]">
+              <p class="text-primary text-[22px] sm:text-[28px] leading-[1.3]">
                 「解決」できるサービスの<br class="block sm:hidden">提供に挑み続ける
               </p>
 
