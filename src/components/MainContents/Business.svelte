@@ -1,4 +1,5 @@
 <script>
+  import DonutChart from '../Chart/DonutChart.svelte';
   import Link from '../Link/Link.svelte';
 </script>
 
@@ -69,7 +70,7 @@
                 さまざまなパートナー企業と一緒に「解決」を目指します。
               </p>
 
-              <div class="flex justify-start mt-12">
+              <div class="hidden sm:flex justify-start mt-12">
                 <Link
                   linkUrl="#"
                   linkText="運営サービスの詳細はこちら"
@@ -80,7 +81,14 @@
         </div>
 
         <div class="col-span-1">
-          <div class="w-full sm:h-full h-20 text-black rounded-full bg-black"></div>
+          <DonutChart />
+        </div>
+
+        <div class="flex sm:hidden justify-center mt-12">
+          <Link
+            linkUrl="#"
+            linkText="運営サービスの詳細はこちら"
+          />
         </div>
       </div>
     </div>
