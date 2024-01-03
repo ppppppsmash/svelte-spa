@@ -14,6 +14,7 @@ export default {
       'white': '#FFF',
       'black': '#333',
       'good': '#E5445F',
+      'transparent': 'transparent'
     },
     extend: {
       animation: {

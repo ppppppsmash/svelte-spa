@@ -3,7 +3,7 @@
   export let linkUrl;
 </script>
 
-<section class="my-11 sm:my-24">
+<section>
   <div class="flex justify-center items-center text-center gap-x-2">
     <a
       class="relative text-black font-bold"
