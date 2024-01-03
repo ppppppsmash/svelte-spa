@@ -5,7 +5,7 @@
 <section class="mt-[124px] sm:mt-[160px]">
   <div>
     <div class="sm:grid grid-cols-4">
-      <div class="col-span-3 col-stasrt-1 sm:w-[736px]">
+      <div class="col-span-3 col-stasrt-1 lg:w-[736px]">
         <div class="text-center sm:flex sm:justify-start sm:items-center sm:gap-x-4">
           <h2 class="text-primary font-light text-[74px] sm:text-[145px]">
             Philosophy

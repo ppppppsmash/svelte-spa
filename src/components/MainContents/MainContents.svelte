@@ -3,6 +3,7 @@
   import Philosophy from './Philosophy.svelte';
   import Vision from './Vision.svelte';
   import Guideline from './Guideline.svelte';
+  import Link from '../Link/Link.svelte';
 </script>
 
 <section class="bg-white">
@@ -11,5 +12,9 @@
     <Philosophy />
     <Vision />
     <Guideline />
+    <Link
+      linkUrl="#"
+      linkText="代表の思いはこちら"
+    />
   </div>
 </section>
