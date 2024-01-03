@@ -5,6 +5,7 @@
   import Guideline from './Guideline.svelte';
   import Business from './Business.svelte';
   import Link from '../Link/Link.svelte';
+  import Achievements from './Achievements.svelte';
 </script>
 
 <section class="bg-white">
@@ -23,4 +24,6 @@
   </div>
 
   <Business />
+
+  <Achievements />
 </section>

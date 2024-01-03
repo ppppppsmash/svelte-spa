@@ -4,7 +4,7 @@
 </script>
 
 <section
-  class="relative w-full mx-auto !bg-center bg-cover sm:!bg-contain !bg-no-repeat"
+  class="relative py-20 w-full mx-auto !bg-center bg-cover sm:!bg-cover !bg-no-repeat"
   style="background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url('images/business-bg.png')"
 >
   <div class="sm:w-[975px] px-[24px] sm:px-0 mx-auto z-50">
