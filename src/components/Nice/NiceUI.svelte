@@ -2,22 +2,29 @@
   import { HeartRegular, HeartSolid } from 'svelte-awesome-icons';
 
   let heartRegularFlg = true;
+  let heartAnimateFlg = false;
+
   const heartToggle = () => {
     heartRegularFlg = !heartRegularFlg
   };
+
+  const heartClick = () => {
+    heartAnimateFlg = !heartAnimateFlg;
+  };
 </script>
 
-<section class="sm:w-[975px] px-[24px] sm:px-0 pt-[64px] pb-14 sm:pt-[112px] mx-auto">
+<section class="sm:w-[975px] px-[24px] sm:px-0 pt-[64px] pb-14 mx-auto">
   <div class="flex justify-center">
-    <div
+    <button
       class="text-nice rounded-full border-[3px] border-solid border-nice
         w-[136px] h-[136px] flex flex-col justify-center items-center gap-y-1
-        group hover:bg-nice hover:cursor-pointer duration-300 focus:animate-nice-active"
+        group hover:bg-nice hover:cursor-pointer duration-300"
       tabindex="0"
-      role="button"
       aria-pressed="false"
       on:mouseenter={heartToggle}
       on:mouseleave={heartToggle}
+      on:click={heartClick}
+      class:animate-nice-active={heartAnimateFlg}
     >
       <div
       >
@@ -27,6 +34,6 @@
         duration-150 {heartRegularFlg ? 'hidden' : 'block'} focus:outline-none" />
       </div>
       <p class="text-[18px] font-bold group-hover:text-white">いいね!</p>
-    </div>
+    </button>
   </div>
 </section>

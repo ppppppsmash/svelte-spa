@@ -72,22 +72,13 @@ export default {
         },
         'nice-active': {
           '0%,to': {
-              transform: 'scale3d(1, 1, 1)'
+            transform: 'scale3d(1, 1, 1)'
           },
-          '30%': {
-              transform: 'scale3d(1.25, .75, 1)'
-          },
-          '40%': {
-              transform: 'scale3d(.75, 1.25, 1)'
-          },
-          '50%': {
-              transform: 'scale3d(1.15, .85, 1)'
-          },
-          '65%': {
-              transform: 'scale3d(.95, 1.05, 1)'
+          '5%': {
+            transform: 'scale3d(.9, .9, .9)'
           },
           '75%': {
-              transform: 'scale3d(1.05, .95, 1)'
+            transform: 'scale3d(1, 1, 1)'
           }
       }
       }

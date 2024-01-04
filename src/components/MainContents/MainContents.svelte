@@ -28,5 +28,10 @@
 
   <Achievements />
 
+  <Link
+    linkUrl="#"
+    linkText="その他の数値情報はこちら"
+  />
+
   <NiceUi />
 </section>
