@@ -6,6 +6,7 @@
   import Business from './Business.svelte';
   import Link from '../Link/Link.svelte';
   import Achievements from './Achievements.svelte';
+  import NiceUi from '../Nice/NiceUI.svelte';
 </script>
 
 <section class="bg-white">
@@ -25,7 +26,7 @@
 
   <Business />
 
-  <div class="sm:w-[975px] px-[24px] sm:px-0 pt-[64px] sm:pt-[112px] mx-auto">
-    <Achievements />
-  </div>
+  <Achievements />
+
+  <NiceUi />
 </section>

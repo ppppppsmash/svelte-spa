@@ -13,7 +13,7 @@ export default {
       'arrow': '#FFF33F',
       'white': '#FFF',
       'black': '#333',
-      'good': '#E5445F',
+      'nice': '#E5445F',
       'transparent': 'transparent'
     },
     extend: {
@@ -22,7 +22,8 @@ export default {
         'slide-out': 'slide-out-fwd-center 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both',
         'preface-logo': 'logo-zoom-out 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both, slide-out-fwd-center 0.6s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.8s both',
         'mainvisual-zoom-out': 'mainvisual-zoom-out 8s linear 0s 1 normal both',
-        'scroll-active': 'scroll-active 1.4s ease-in-out infinite'
+        'scroll-active': 'scroll-active 1.4s ease-in-out infinite',
+        'nice-active': 'nice-active 0.8s ease   both'
       },
       keyframes: {
         'logo-zoom-out': {
@@ -68,7 +69,27 @@ export default {
             top: '72px',
             opacity: '0'
           }
-        }
+        },
+        'nice-active': {
+          '0%,to': {
+              transform: 'scale3d(1, 1, 1)'
+          },
+          '30%': {
+              transform: 'scale3d(1.25, .75, 1)'
+          },
+          '40%': {
+              transform: 'scale3d(.75, 1.25, 1)'
+          },
+          '50%': {
+              transform: 'scale3d(1.15, .85, 1)'
+          },
+          '65%': {
+              transform: 'scale3d(.95, 1.05, 1)'
+          },
+          '75%': {
+              transform: 'scale3d(1.05, .95, 1)'
+          }
+      }
       }
     },
   },
