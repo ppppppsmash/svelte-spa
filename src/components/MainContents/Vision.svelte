@@ -21,23 +21,23 @@
           <div
             class="relative border-0 before:absolute before:left-0 before:top-0 before:w-8 before:h-20 before:border-2 before:border-b-0
             before:border-r-0 before:border-primary after:border-primary after:absolute after:right-0 after:bottom-0 after:w-8
-            after:h-20 after:border-2 after:border-t-0 after:border-l-0 px-12 py-9
+            after:h-20 after:border-2 after:border-t-0 after:border-l-0 px-7 py-9
           "
           >
             <div class="font-bold">
               <p class="text-primary text-[22px] sm:text-[28px] leading-[1.3] mb-3">
-                どこよりもはやく<br class="block sm:hidden">どこよりもかんたんに<br class="block sm:hidden">
+                どこよりもはやく<br class="block sm:hidden">どこよりもかんたんに
               </p>
               <p class="text-primary text-[22px] sm:text-[28px] leading-[1.3]">
-                「解決」できるサービスの<br class="block sm:hidden">提供に挑み続ける
+                「解決」できるサービスのく<br class="block sm:hidden">提供に挑み続ける
               </p>
 
-              <p class="text-black font-medium mt-6 leading-[2]">
-                私たちの強みであるマーケティング力<br class="block sm:hidden">と独自のデータベース。それらをもち<br class="block sm:hidden">いてパート<br class="hidden sm:block">
-                ナー企業と生活者が「ほん<br class="block sm:hidden">とうに求めるもの」を導き出します。<br class="block sm:hidden">そして、最新のテクノロ<br class="hidden sm:block">
-                ジーを活用<br class="block sm:hidden">し、最適な機能とタイミングで「解<br class="block sm:hidden">決」を実現します。「いま必要なもの<br class="block sm:hidden">は何<br class="hidden sm:block">
-                か、本質的な課題はどこか」私た<br class="block sm:hidden">ちは常に顧客視点で考えながら、パー<br class="block sm:hidden">トナー企業と生活<br class="hidden sm:block">
-                者を支援し、また両<br class="block sm:hidden">者を結びつけるプラットフォームとし<br class="block sm:hidden">てさらなる向上を目指します。
+              <p class="text-black font-medium mt-6 leading-[2] tracking-wide sm:tracking-normal">
+                私たちの強みであるマーケティング力と独自のデータベース。それらをもちいてパート
+                ナー企業と生活者が「ほんとうに求めるもの」を導き出します。そして、最新のテクノロ
+                ジーを活用し、最適な機能とタイミングで「解決」を実現します。「いま必要なものは何
+                か、本質的な課題はどこか」私たちは常に顧客視点で考えながら、パートナー企業と生活
+                者を支援し、また両者を結びつけるプラットフォームとしてさらなる向上を目指します。
               </p>
             </div>
           </div>

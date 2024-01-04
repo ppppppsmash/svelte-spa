@@ -27,15 +27,15 @@
       <div
         class="relative border-0 before:absolute before:left-0 before:top-0 before:w-8 before:h-20 before:border-2 before:border-b-0
         before:border-r-0 before:border-primary after:border-primary after:absolute after:right-0 after:bottom-0 after:w-8
-        after:h-20 after:border-2 after:border-t-0 after:border-l-0 px-12 py-9
+        after:h-20 after:border-2 after:border-t-0 after:border-l-0 px-7 py-9
       "
       >
         <div class="font-bold">
           <p class="text-primary text-[18px] sm:text-[24px] sm:leading-[1.3] leading-[1.5] mb-3">
-            生活者と企業のニーズをつなげる、持続可能なサイクル設計
+            生活者と企業のニーズをつなげる、<br class="block sm:hidden">持続可能なサイクル設計
           </p>
 
-          <p class="text-black font-medium mt-6 leading-[2]">
+          <p class="text-black font-medium mt-6 leading-[2] tracking-wide sm:tracking-normal">
             私たちのサービスは、生活者と企業のニーズをつなぐ架け橋として、双方に価値のある繋がりを提供しています。
             人々の生活に密着した多様なサービス運営を通じて、生活者の行動やニーズを把握し、それを開発や営業、マーケティング戦略に活かすことで、
             持続的な価値提供サイクルを実現しています。
@@ -56,14 +56,14 @@
           <div
             class="relative border-0 before:absolute before:left-0 before:top-0 before:w-8 before:h-20 before:border-2 before:border-b-0
             before:border-r-0 before:border-primary after:border-primary after:absolute after:right-0 after:bottom-0 after:w-8
-            after:h-20 after:border-2 after:border-t-0 after:border-l-0 px-12 py-9"
+            after:h-20 after:border-2 after:border-t-0 after:border-l-0 px-7 py-9"
           >
             <div class="sm:font-bold font-semibold">
               <p class="text-primary text-[18px] sm:text-[24px] leading-[1.5] mb-3">
-                人びとのライフステージに寄りそうサービスを展開しています
+                人びとのライフステージに寄りそ<br class="block sm:hidden">うサービスを展開しています
               </p>
 
-              <p class="text-black sm:font-medium font-normal mt-6 leading-[2]">
+              <p class="text-black sm:font-medium font-normal mt-6 leading-[2] tracking-wide sm:tracking-normal">
                 私たちの事業は、人生のあらゆる場面で「課題」をかかえる人たちに向けたものです。
                 進学や学校生活になやむ若者、引越しや手続きに負担を感じる人、自宅や車など大型資産をはじめて売却する人、
                 親の介護問題にぶつかる家族、資産形成の手段がわからない人...そんな困っている人々へ、

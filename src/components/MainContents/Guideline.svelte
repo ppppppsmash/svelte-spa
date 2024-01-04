@@ -19,7 +19,7 @@
           <div
             class="relative border-0 before:absolute before:left-0 before:top-0 before:w-8 before:h-20 before:border-2 before:border-b-0
             before:border-r-0 before:border-primary after:border-primary after:absolute after:right-0 after:bottom-0 after:w-8
-            after:h-20 after:border-2 after:border-t-0 after:border-l-0 px-12 py-9
+            after:h-20 after:border-2 after:border-t-0 after:border-l-0 px-7 py-9
           "
           >
             <div class="font-bold sm:grid grid-cols-3 gap-0 w-[273px] sm:w-auto">
@@ -43,12 +43,12 @@
               </p>
             </div>
 
-            <p class="text-black font-medium mt-6 leading-[2]">
-            社員の成長をうながすために制定され<br class="block sm:hidden">た行動指針。一人ひとりがこれに則っ<br class="block sm:hidden">て行動するこ<br class="hidden sm:block">
-            とで、経営理念・経営ビ<br class="block sm:hidden">ジョンの実現につながると考えていま<br class="block sm:hidden">す。また、私たちはサービ<br class="hidden sm:block">
-            スの開発・<br class="block sm:hidden">運営に必要なすべての機能を社内に擁<br class="block sm:hidden">しています。「当事者としての課題意<br class="block sm:hidden">識<br class="hidden sm:block">
-            を持てているか？ポジティブに考<br class="block sm:hidden">え、挑戦できているか？」そんなこと<br class="block sm:hidden">を常に意識しなが<br class="hidden sm:block">
-            ら、それぞれの専門<br class="block sm:hidden">スキルを発揮しています。
+            <p class="text-black font-medium mt-6 leading-[2] tracking-wide sm:tracking-normal">
+            社員の成長をうながすために制定された行動指針。一人ひとりがこれに則って行動するこ
+            とで、経営理念・経営ビジョンの実現につながると考えています。また、私たちはサービ
+            スの開発・運営に必要なすべての機能を社内に擁しています。「当事者としての課題意識
+            を持てているか？ポジティブに考え、挑戦できているか？」そんなことを常に意識しなが
+            ら、それぞれの専門スキルを発揮しています。
             </p>
           </div>
         </div>

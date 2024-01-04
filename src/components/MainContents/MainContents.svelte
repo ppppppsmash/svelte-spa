@@ -25,5 +25,7 @@
 
   <Business />
 
-  <Achievements />
+  <div class="sm:w-[975px] px-[24px] sm:px-0 pt-[64px] sm:pt-[112px] mx-auto">
+    <Achievements />
+  </div>
 </section>

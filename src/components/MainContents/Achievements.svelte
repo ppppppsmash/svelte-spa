@@ -59,7 +59,7 @@
   ];
 </script>
 
-<section class="sm:w-[975px] px-[24px] py-10 mx-auto">
+<section class="py-10">
   <div>
     <div>
       <div class="lg:w-[736px]">
@@ -75,7 +75,7 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-y-8">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-x-0 sm:gap-x-10 gap-y-8">
           {#each cardContents as cardContent}
             <AchievementsCard
               icon={cardContent.icon}

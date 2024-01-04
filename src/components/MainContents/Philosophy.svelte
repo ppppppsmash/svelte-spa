@@ -21,7 +21,7 @@
           <div
             class="relative border-0 before:absolute before:left-0 before:top-0 before:w-8 before:h-20 before:border-2 before:border-b-0
             before:border-r-0 before:border-primary after:border-primary after:absolute after:right-0 after:bottom-0 after:w-8
-            after:h-20 after:border-2 after:border-t-0 after:border-l-0 px-12 py-9
+            after:h-20 after:border-2 after:border-t-0 after:border-l-0 px-7 py-9
           "
           >
             <div class="font-bold">
@@ -32,12 +32,12 @@
                 わかりにくいものを<br class="block sm:hidden">わかりやすく
               </p>
 
-              <p class="text-black font-medium mt-6 leading-[2]">
-                私たちが主に取り扱うのは、人々のラ<br class="block sm:hidden">イフステージに関わる商品。個々の<br class="block sm:hidden">ニーズによって<br class="hidden sm:block">
-                適切なサービスが変動<br class="block sm:hidden">するもので、その複雑さゆえに企業と<br class="block sm:hidden">生活者のあいだに障壁が生ま<br class="hidden sm:block">
-                れがちで<br class="block sm:hidden">す。この課題を解消すべく、私たちは<br class="block sm:hidden">その複雑性をひもとき選びやすい情報<br class="block sm:hidden">へ加<br class="hidden sm:block">
-                工し提供しています。見えないも<br class="block sm:hidden">のを見えるように、わかりにくいもの<br class="block sm:hidden">をわかりやすく。<br class="hidden sm:block">
-                これは、私たちの使<br class="block sm:hidden">命である「最適な選択のサポート」の<br class="block sm:hidden">根幹と言えます。
+              <p class="text-black font-medium mt-6 leading-[2] tracking-wide sm:tracking-normal">
+                私たちが主に取り扱うのは、人々のライフステージに関わる商品。個々のニーズによって
+                適切なサービスが変動するもので、その複雑さゆえに企業と生活者のあいだに障壁が生ま
+                れがちです。この課題を解消すべく、私たちはその複雑性をひもとき選びやすい情報へ加
+                工し提供しています。見えないものを見えるように、わかりにくいものをわかりやすく。
+                これは、私たちの使命である「最適な選択のサポート」の根幹と言えます。
               </p>
             </div>
           </div>
