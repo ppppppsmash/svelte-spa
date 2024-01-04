@@ -51,17 +51,18 @@
       .append('div')
       .style('width', '12px')
       .style('height', '12px')
+      .style('border-radius', '2px')
       .style('background-color', (d) => color(data[d]))
       .style('margin-right', '4px');
 
     legend
       .append('div')
-      .attr('class', 'w-full flex justify-between')
+      .attr('class', 'max-w-full w-10/12 flex justify-between')
       .html((d) => `${data[d].label} <span>${data[d].value}%</span>`);
   });
 </script>
 
-<section class="relative">
+<section class="relative animate-fade-up animate-once">
   <svg
     {width}
     {height}
@@ -82,8 +83,8 @@
   </div>
 
   <div
-    class="legend absolute w-[220px] sm:w-[265px] top-[64%] left-[55%] -translate-x-1/2 -translate-y-1/2
-      grid grid-cols-2 text-[12px] sm:text-sm gap-x-4"
+    class="legend absolute w-[220px] sm:w-[265px] top-[62%] left-[55%] -translate-x-1/2 -translate-y-1/2
+      grid grid-cols-2 text-[12px] sm:text-sm gap-x-2"
   />
 </section>
 
