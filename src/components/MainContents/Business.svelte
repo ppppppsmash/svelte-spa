@@ -6,8 +6,7 @@
 </script>
 
 <section
-  class="relative py-20 w-full mx-auto !bg-center bg-cover sm:!bg-cover !bg-no-repeat"
-  style="background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url('images/business-bg.png')"
+  class="relative bg-business py-20 w-full h-full mx-auto !bg-center bg-cover !bg-no-repeat"
 >
   <Saos
     once={true}
@@ -50,11 +49,11 @@
         </div>
 
         <div class="mt-8 hidden sm:block sm:w-[925px] mx-auto">
-          <img class="w-full" src="images/business-contribution_pc.png" alt="">
+          <img class="w-full" src="images/business-contribution_pc.png" alt="生活者への貢献">
         </div>
 
         <div class="my-8 block sm:hidden w-[270px] mx-auto">
-          <img class="w-full" src="images/business-contribution-service_value_sp.png" alt="">
+          <img class="w-full" src="images/business-contribution-service_value_sp.png" alt="生活者への貢献">
         </div>
 
         <div class="sm:grid sm:mt-[100px] grid-cols-2 gap-x-14">
@@ -102,3 +101,15 @@
     </div>
   </Saos>
 </section>
+
+<style>
+  .bg-business {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url('images/business-bg_sp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: 640px) {
+      background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url('images/business-bg.png');
+    }
+  }
+</style>

@@ -2,8 +2,8 @@
   import * as d3 from 'd3';
   import { onMount } from 'svelte';
 
-  let width = 500;
-  let height = 500;
+  let width = 600;
+  let height = 600;
   let margin = 40;
 
   let radius = Math.min(width, height) / 2 - margin;
@@ -66,7 +66,7 @@
   <svg
     {width}
     {height}
-    viewBox='{-width / 2}, {-height / 2}, {width}, {height}'
+    viewBox='{-(width - 50) / 2}, {-(height - 50) / 2}, {width - 50}, {height - 50}'
     style:max-width='100%'
     style:height='auto'
   >
@@ -83,7 +83,7 @@
   </div>
 
   <div
-    class="legend absolute w-[220px] sm:w-[265px] top-[62%] left-[55%] -translate-x-1/2 -translate-y-1/2
+    class="legend absolute w-[220px] sm:w-[265px] top-[65%] left-[55%] -translate-x-1/2 -translate-y-1/2
       grid grid-cols-2 text-[12px] sm:text-sm gap-x-2"
   />
 </section>
