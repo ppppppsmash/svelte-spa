@@ -1,9 +1,12 @@
 <script>
-
+  import Saos from "saos";
 </script>
 
 <section class="mt-[124px] sm:mt-[160px]">
-  <div>
+  <Saos
+    once={true}
+    animation={'fade-in-bottom 1.2s ease-out   both'}
+  >
     <div class="sm:grid grid-cols-4">
       <div class="col-span-3 col-stasrt-1 lg:w-[736px]">
         <div class="text-center sm:flex sm:justify-start sm:items-center sm:gap-x-4">
@@ -44,7 +47,5 @@
         </div>
       </div>
     </div>
-
-
-  </div>
+  </Saos>
 </section>

@@ -23,7 +23,8 @@ export default {
         'preface-logo': 'logo-zoom-out 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both, slide-out-fwd-center 0.6s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.8s both',
         'mainvisual-zoom-out': 'mainvisual-zoom-out 8s linear 0s 1 normal both',
         'scroll-active': 'scroll-active 1.4s ease-in-out infinite',
-        'nice-active': 'nice-active 0.8s ease   both'
+        'nice-active': 'nice-active 0.8s ease   both',
+        'fade-in-bottom': 'fade-in-bottom 0.6s ease-out   both',
       },
       keyframes: {
         'logo-zoom-out': {
@@ -80,7 +81,17 @@ export default {
           '75%': {
             transform: 'scale3d(1, 1, 1)'
           }
-      }
+        },
+        'fade-in-bottom': {
+          '0%': {
+            transform: 'translateY(50px)',
+            opacity: '0',
+          },
+          to: {
+            transform: 'translateY(0)',
+            opacity: '1',
+          },
+        },
       }
     },
   },

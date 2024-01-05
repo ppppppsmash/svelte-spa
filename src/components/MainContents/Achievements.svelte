@@ -1,4 +1,5 @@
 <script>
+  import Saos from "saos";
   import AchievementsCard from "./Achievements/AchievementsCard.svelte";
 
   const cardContents = [
@@ -60,7 +61,10 @@
 </script>
 
 <section class="sm:w-[975px] px-[24px] sm:px-0 pt-[64px] pb-14 sm:pt-[112px] mx-auto">
-  <div>
+  <Saos
+    once={true}
+    animation={'fade-in-bottom 1.2s ease-out   both'}
+  >
     <div>
       <div class="lg:w-[736px]">
         <div class="text-center sm:flex sm:justify-start sm:items-center sm:gap-x-4">
@@ -89,5 +93,5 @@
           {/each}
         </div>
     </div>
-  </div>
+  </Saos>
 </section>

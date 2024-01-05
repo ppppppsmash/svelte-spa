@@ -1,7 +1,12 @@
-<script></script>
+<script>
+  import Saos from "saos";
+</script>
 
 <section class="mt-[124px] sm:mt-[160px]">
-  <div>
+  <Saos
+    once={true}
+    animation={'fade-in-bottom 1.2s ease-out   both'}
+  >
     <div class="sm:grid grid-cols-4">
       <div class="col-span-3 col-stasrt-1 lg:w-[736px]">
         <div class="text-center sm:flex sm:justify-start sm:items-center sm:gap-x-4">
@@ -24,7 +29,7 @@
           >
             <div class="font-bold sm:grid grid-cols-3 gap-0 w-[273px] sm:w-auto">
               <p class="col-span-2 text-primary sm:text-[19px] leading-[1.3] mb-3 text-center sm:text-left">
-                ・常に『当事者として課題意識』を持つこと
+                ・常に『当事者として課題意識』を<br class="block sm:hidden">持つこと
               </p>
               <p class="text-primary sm:text-[19px] leading-[1.3] sm:-ml-9 mb-3">
                 ・常に「挑戦』し続けること
@@ -54,5 +59,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </Saos>
 </section>

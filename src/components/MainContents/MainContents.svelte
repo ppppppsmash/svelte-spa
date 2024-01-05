@@ -7,6 +7,7 @@
   import Link from '../Link/Link.svelte';
   import Achievements from './Achievements.svelte';
   import NiceUi from '../Nice/NiceUI.svelte';
+  import AnimateInview from '../AnimateInview/AnimateInview.svelte';
 </script>
 
 <section class="bg-white">
@@ -28,10 +29,13 @@
 
   <Achievements />
 
+  <AnimateInview />
+
   <Link
     linkUrl="#"
     linkText="その他の数値情報はこちら"
   />
 
   <NiceUi />
+
 </section>

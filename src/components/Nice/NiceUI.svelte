@@ -1,8 +1,11 @@
 <script>
+  import Saos from "saos";
+
   import { HeartRegular, HeartSolid } from 'svelte-awesome-icons';
 
   let heartRegularFlg = true;
   let heartAnimateFlg = false;
+  let clickCount = 0;
 
   const heartToggle = () => {
     heartRegularFlg = !heartRegularFlg
@@ -11,10 +14,16 @@
   const heartClick = () => {
     heartAnimateFlg = !heartAnimateFlg;
   };
+
+
 </script>
 
 <section class="sm:w-[975px] px-[24px] sm:px-0 pt-[64px] pb-14 mx-auto">
   <div class="flex justify-center">
+    <Saos
+      once={true}
+      animation={'fade-in-bottom 0.6s ease-out   both'}
+    >
     <button
       class="text-nice rounded-full border-[3px] border-solid border-nice
         w-[136px] h-[136px] flex flex-col justify-center items-center gap-y-1
@@ -35,5 +44,6 @@
       </div>
       <p class="text-[18px] font-bold group-hover:text-white">いいね!</p>
     </button>
+  </Saos>
   </div>
 </section>

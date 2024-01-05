@@ -6,7 +6,7 @@
   import CountUp from '../components/Count/CountUp.svelte';
   import MainContents from '../components/MainContents/MainContents.svelte';
 
-  let showPrefaceLogo = false;
+  let showPrefaceLogo = true;
 
   const removePrefaceLogo = () => {
     showPrefaceLogo = false;
