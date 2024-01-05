@@ -1,5 +1,6 @@
 <script>
   import Saos from "saos";
+
   import AchievementsCard from "./Achievements/AchievementsCard.svelte";
 
   const cardContents = [
@@ -58,6 +59,16 @@
       annotation: '※2018年度と2022年度の実績を比較'
     },
   ];
+
+  let countupComplete = 0;
+  const totalCards = 6; // カードの総数
+
+  const handleCountupComplete = () => {
+    countupComplete++;
+    if (countupComplete === totalCards) {
+      console.log('All countups are complete!');
+    }
+  };
 </script>
 
 <section class="sm:w-[975px] px-[24px] sm:px-0 pt-[64px] pb-14 sm:pt-[112px] mx-auto">
@@ -89,6 +100,7 @@
               value={cardContent.value}
               unit={cardContent.unit}
               annotation={cardContent.annotation}
+              on:countup-complete={handleCountupComplete}
             />
           {/each}
         </div>

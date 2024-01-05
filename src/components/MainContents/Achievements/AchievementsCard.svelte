@@ -1,4 +1,6 @@
 <script>
+  import Countup from "svelte-countup";
+
   export let icon, iconAlt, title, titleEn, value, unit, annotation;
 </script>
 
@@ -19,7 +21,19 @@
     </div>
 
     <div class="flex justify-center items-end mt-2 gap-x-2 text-primary box-border">
-      <p class="text-[84px]">{value}<span class="font-bold text-[24px]">{unit}</span></p>
+      <p class="text-[84px]">
+        <Countup
+          initial={0}
+          value={value}
+          duration={3000}
+          step={1}
+          format={false}
+        />
+
+        <span class="font-bold text-[24px]">
+          {unit}
+        </span>
+      </p>
     </div>
 
     {#if annotation.length}
