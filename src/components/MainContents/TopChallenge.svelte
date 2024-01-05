@@ -5,20 +5,20 @@
 <section>
   <div class="sm:grid grid-rows-2 grid-cols-2 gap-10 sm:h-min-[942px]">
     <div class="flex justify-center row-start-1 row-span-2">
-      <Saos
-        once={true}
-        animation={'fade-in-bottom 1.2s ease-out   both'}
-      >
         <p class="vertical-rl text-left text-primary text-[23px] sm:text-[28px] font-semibold sm:font-bold
           tracking-widest leading-[2.5] mb-[120px] sm:mb-0"
         >
+        <Saos
+          once={true}
+          animation={'fade-in-bottom 1.2s ease-out   both'}
+        >
           私たちはパートナーと共に<br>人々の暮らしを豊かにする<br>存在であり続けます。
+          </Saos>
         </p>
-      </Saos>
     </div>
 
     <div class="row-start-1 row-span-2 text-black text-[17px] sm:text-[19px] leading-[2] sm:leading-[2.2]
-      font-semibold sm:font-bold sm:mt-[130px] tracking-wide"
+      font-semibold sm:font-bold sm:mt-[130px]"
     >
       <div class="relative w-16 border-t-2 text-secondary mb-8 before:absolute before:w-8 before:border-t-2
         before:bottom-0 before:left-0 before:h-[inherit] before:text-primary before:z-30"

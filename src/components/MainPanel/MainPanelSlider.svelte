@@ -16,11 +16,11 @@
   }
 
   onMount(() => {
-    windowSize()
+    windowSize();
   })
 </script>
 
-<section class="h-screen">
+<section class="h-[100svh]">
   <Logo classProps="absolute top-6 left-1/2 z-30 sm:w-[250px] w-[206px] -translate-x-1/2" />
 
   <div
