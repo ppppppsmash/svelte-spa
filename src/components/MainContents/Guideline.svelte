@@ -28,7 +28,7 @@
           "
           >
             <div class="font-bold sm:grid grid-cols-3 gap-0 w-[273px] sm:w-auto">
-              <p class="col-span-2 text-primary sm:text-[19px] leading-[1.3] mb-3 text-center sm:text-left">
+              <p class="col-span-2 text-primary sm:text-[19px] leading-[1.3] mb-3 text-center -indent-5 sm:indent-0 sm:text-left">
                 ・常に『当事者として課題意識』を<br class="block sm:hidden">持つこと
               </p>
               <p class="text-primary sm:text-[19px] leading-[1.3] sm:-ml-9 mb-3">

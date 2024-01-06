@@ -102,14 +102,14 @@
   </Saos>
 </section>
 
-<style>
+<style lang="scss">
   .bg-business {
-    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url('images/business-bg_sp.png');
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url('/images/business-bg_sp.png');
     background-size: cover;
     background-repeat: no-repeat;
 
     @media screen and (min-width: 640px) {
-      background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url('images/business-bg.png');
+      background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url('/images/business-bg.png');
     }
   }
 </style>

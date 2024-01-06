@@ -13,6 +13,18 @@
 
   const heartClick = () => {
     heartAnimateFlg = !heartAnimateFlg;
+    incrementClickCount();
+  };
+
+  const incrementClickCount = async () => {
+    await fetch('https://script.google.com/macros/s/AKfycbxk3EQHJ-icBJggxq85YOZkniBaFUWm-v9efZ1ZrpL6ZforXMz0xO9hz8rTnm0lres/exec', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ clickCount: clickCount + 1 }),
+      mode: 'no-cors',
+    });
   };
 
 
