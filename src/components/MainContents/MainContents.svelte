@@ -7,6 +7,7 @@
   import Link from '../Link/Link.svelte';
   import Achievements from './Achievements.svelte';
   import NiceUi from '../Nice/NiceUI.svelte';
+  import Contact from './Contact.svelte';
 </script>
 
 <section class="bg-white">
@@ -34,5 +35,7 @@
   />
 
   <NiceUi />
+
+  <Contact />
 
 </section>
