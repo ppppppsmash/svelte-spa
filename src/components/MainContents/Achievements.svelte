@@ -71,7 +71,7 @@
   };
 </script>
 
-<section class="sm:w-[975px] px-[24px] sm:px-0 pt-[64px] pb-14 sm:pt-[112px] mx-auto">
+<section class="sm:w-[980px] px-[24px] sm:px-0 pt-[64px] pb-14 sm:pt-[112px] mx-auto">
   <Saos
     once={true}
     animation={'fade-in-bottom 1.2s ease-out   both'}

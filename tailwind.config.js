@@ -10,9 +10,11 @@ export default {
     colors: {
       'primary': '#0A338A',
       'secondary': '#208CE5',
+      'tertiary': '#7A818F',
       'arrow': '#FFF33F',
       'white': '#FFF',
       'black': '#333',
+      'gray': '#BBBBBC',
       'nice': '#E5445F',
       'transparent': 'transparent'
     },

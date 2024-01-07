@@ -1,4 +1,6 @@
 <script>
+  import Breadcrumb from '../components/Footter/Breadcrumb.svelte';
+
 	import '../app.scss';
 	import './styles.scss';
 </script>
@@ -7,6 +9,8 @@
 	<main>
 		<slot />
 	</main>
+
+  <Breadcrumb />
 </div>
 
 <style lang="scss">

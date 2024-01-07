@@ -30,7 +30,7 @@
 
 </script>
 
-<section class="sm:w-[975px] px-[24px] sm:px-0 pt-[64px] pb-14 mx-auto">
+<section class="sm:w-[980px] px-[24px] sm:px-0 pt-[64px] pb-14 mx-auto">
   <div class="flex justify-center">
     <Saos
       once={true}

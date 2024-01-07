@@ -11,7 +11,7 @@
 </script>
 
 <section class="bg-white">
-  <div class="sm:w-[975px] px-[24px] sm:px-0 pt-[64px] sm:pt-[112px] mx-auto">
+  <div class="sm:w-[980px] px-[24px] sm:px-0 pt-[64px] sm:pt-[112px] mx-auto">
     <TopChallenge />
     <Philosophy />
     <Vision />

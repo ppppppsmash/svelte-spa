@@ -12,7 +12,7 @@
     once={true}
     animation={'fade-in-bottom 1.2s ease-out   both'}
   >
-    <div class="sm:w-[975px] px-[24px] sm:px-0 mx-auto z-50">
+    <div class="sm:w-[980px] px-[24px] sm:px-0 mx-auto z-50">
       <div class="sm:grid grid-cols-4">
         <div class="col-span-3 col-start-2 lg:w-[736px]">
           <div class="text-center sm:flex-row-reverse sm:flex sm:justify-start sm:items-center sm:gap-x-4">
