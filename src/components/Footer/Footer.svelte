@@ -5,11 +5,11 @@
   const sitemaps1 = [
     {
       name: '利用規約',
-      url: '/info/terms.html'
+      url: 'https://www.webcrew.co.jp/info/terms.html'
     },
     {
       name: 'プライバシーポリシー',
-      url: '/info/privacy.html'
+      url: 'https://www.webcrew.co.jp/info/privacy.html'
     },
     {
       name: 'アフィリエイトプログラム',
@@ -17,127 +17,127 @@
     },
     {
       name: '利用お問い合わせ規約',
-      url: '/contact/'
+      url: 'https://www.webcrew.co.jp/contact/'
     },
     {
       name: 'サイトマップ',
-      url: '/info/sitemap.html'
+      url: 'https://www.webcrew.co.jp/info/sitemap.html'
     },
     {
       name: 'English',
-      url: '/en/'
+      url: 'https://www.webcrew.co.jp/en/'
     },
   ];
 
   const sitemaps2 = [
     {
       name: 'ニュース',
-      url: '/news/'
+      url: 'https://www.webcrew.co.jp/news/'
     },
     {
       name: '電子公告',
-      url: '/ir/'
+      url: 'https://www.webcrew.co.jp/ir/'
     }
   ];
 
   const sitemaps3 = [
     {
       name: 'サービス',
-      url: '/service/'
+      url: 'https://www.webcrew.co.jp/service/'
     },
     {
       name: '保険',
-      url: '/service/insurance/'
+      url: 'https://www.webcrew.co.jp/service/insurance/'
     },
     {
       name: '生活',
-      url: '/service/life/'
+      url: 'https://www.webcrew.co.jp/service/life/'
     },
     {
       name: '自動車',
-      url: '/service/car/'
+      url: 'https://www.webcrew.co.jp/service/car/'
     },
     {
       name: '教育',
-      url: '/service/education/'
+      url: 'https://www.webcrew.co.jp/service/education/'
     },
     {
       name: 'シニア',
-      url: '/service/senior/'
+      url: 'https://www.webcrew.co.jp/service/senior/'
     },
     {
       name: '金融',
-      url: '/service/finance/'
+      url: 'https://www.webcrew.co.jp/service/finance/'
     },
     {
       name: '法人',
-      url: '/service/business/'
+      url: 'https://www.webcrew.co.jp/service/business/'
     },
   ];
 
   const sitemaps4 = [
     {
       name: '企業情報',
-      url: '/company/'
+      url: 'https://www.webcrew.co.jp/company/'
     },
     {
       name: '代表メッセージ',
-      url: '/company/message.html/'
+      url: 'https://www.webcrew.co.jp/company/message.html/'
     },
     {
       name: '会社概要・アクセス',
-      url: '/company/profile.html'
+      url: 'https://www.webcrew.co.jp/company/profile.html'
     },
     {
       name: '経営理念',
-      url: '/company/management-philosophy.html'
+      url: 'https://www.webcrew.co.jp/company/management-philosophy.html'
     },
     {
       name: '事業内容',
-      url: '/company/business.html'
+      url: 'https://www.webcrew.co.jp/company/business.html'
     },
     {
       name: '沿革',
-      url: '/company/history.html'
+      url: 'https://www.webcrew.co.jp/company/history.html'
     },
     {
       name: 'ISO27001',
-      url: '/company/iso27001.html'
+      url: 'https://www.webcrew.co.jp/company/iso27001.html'
     },
     {
       name: '情報セキュリティ基本方針',
-      url: '/company/security.html'
+      url: 'https://www.webcrew.co.jp/company/security.html'
     },
     {
       name: 'ソーシャルメディアポリシー',
-      url: '/company/social.html'
+      url: 'https://www.webcrew.co.jp/company/social.html'
     },
   ];
 
   const sitemaps5 = [
     {
       name: '採用情報',
-      url: '/recruit/'
+      url: 'https://www.webcrew.co.jp/recruit/'
     },
     {
       name: '新卒採用',
-      url: '/recruit/new-graduates.html'
+      url: 'https://www.webcrew.co.jp/recruit/new-graduates.html'
     },
     {
       name: 'キャリア採用',
-      url: '/recruit/mid-career.html'
+      url: 'https://www.webcrew.co.jp/recruit/mid-career.html'
     },
     {
       name: '社内制度',
-      url: '/recruit/institution.html'
+      url: 'https://www.webcrew.co.jp/recruit/institution.html'
     },
     {
       name: 'よくある質問',
-      url: '/recruit/faq.html'
+      url: 'https://www.webcrew.co.jp/recruit/faq.html'
     },
     {
       name: '数字で見るWebCrew',
-      url: '/recruit/infographic.html'
+      url: 'https://www.webcrew.co.jp/recruit/infographic.html'
     }
   ];
 </script>
