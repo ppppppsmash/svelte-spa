@@ -1,6 +1,6 @@
 <script>
-  import Breadcrumb from '../components/Footer/Breadcrumb.svelte';
-  import Footer from '../components/Footer/Footer.svelte';
+  // import Breadcrumb from '../components/Footer/Breadcrumb.svelte';
+  // import Footer from '../components/Footer/Footer.svelte';
 
 	import '../app.scss';
 	import './styles.scss';
@@ -11,5 +11,5 @@
 		<slot />
 	</main>
 
-  <Footer />
+  <!-- <Footer /> -->
 </div>
