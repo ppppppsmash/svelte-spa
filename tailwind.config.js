@@ -15,8 +15,10 @@ export default {
       'white': '#FFF',
       'black': '#333',
       'gray': '#BBBBBC',
+      'sitemap': '#666666',
       'nice': '#E5445F',
-      'transparent': 'transparent'
+      'transparent': 'transparent',
+      'line': '#B2B2B2'
     },
     extend: {
       animation: {
