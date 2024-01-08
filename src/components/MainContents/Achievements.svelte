@@ -72,38 +72,33 @@
 </script>
 
 <section class="sm:w-[980px] px-[24px] sm:px-0 pt-[64px] pb-14 sm:pt-[112px] mx-auto">
-  <Saos
-    once={true}
-    animation={'fade-in-bottom 1.2s ease-out   both'}
-  >
-    <div>
-      <div class="lg:w-[736px]">
-        <div class="text-center sm:flex sm:justify-start sm:items-center sm:gap-x-4">
-          <h2 class="text-primary font-light text-[74px] sm:text-[145px] leading-[52px] sm:leading-normal">
-            Achieve<br class="block sm:hidden">ments
-          </h2>
-          <div class="mt-8 sm:mt-8 mb-10 sm:mb-0">
-            <p class="text-primary">実績</p>
-            <div class="relative w-8 mx-auto mt-1 border-b-2 text-secondary before:absolute before:w-4 before:border-b-2
-              before:-bottom-0.5 sm:before:left-0 before:h-[inherit] before:text-primary before:z-30" />
-            </div>
+  <div>
+    <div class="lg:w-[736px]">
+      <div class="text-center sm:flex sm:justify-start sm:items-center sm:gap-x-4">
+        <h2 class="text-primary font-light text-[74px] sm:text-[145px] leading-[52px] sm:leading-normal">
+          Achieve<br class="block sm:hidden">ments
+        </h2>
+        <div class="mt-8 sm:mt-8 mb-10 sm:mb-0">
+          <p class="text-primary">実績</p>
+          <div class="relative w-8 mx-auto mt-1 border-b-2 text-secondary before:absolute before:w-4 before:border-b-2
+            before:-bottom-0.5 sm:before:left-0 before:h-[inherit] before:text-primary before:z-30" />
           </div>
         </div>
+      </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-x-0 sm:gap-x-6 gap-y-8">
-          {#each cardContents as cardContent}
-            <AchievementsCard
-              icon={cardContent.icon}
-              iconAlt={cardContent.alt}
-              title={cardContent.title}
-              titleEn={cardContent.titleEn}
-              value={cardContent.value}
-              unit={cardContent.unit}
-              annotation={cardContent.annotation}
-              on:countup-complete={handleCountupComplete}
-            />
-          {/each}
-        </div>
-    </div>
-  </Saos>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-x-0 sm:gap-x-6 gap-y-8">
+        {#each cardContents as cardContent}
+          <AchievementsCard
+            icon={cardContent.icon}
+            iconAlt={cardContent.alt}
+            title={cardContent.title}
+            titleEn={cardContent.titleEn}
+            value={cardContent.value}
+            unit={cardContent.unit}
+            annotation={cardContent.annotation}
+            on:countup-complete={handleCountupComplete}
+          />
+        {/each}
+      </div>
+  </div>
 </section>

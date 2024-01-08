@@ -5,7 +5,7 @@
 
   let heartRegularFlg = true;
   let heartAnimateFlg = false;
-  let messageFlg = false;
+  let messageFlg = true;
   let clickCount = 0;
 
   const heartToggle = () => {
@@ -44,7 +44,7 @@
     >
     <div class="relative">
       <div
-        class="absolute left-1/2 -translate-x-1/2 p-2 min-w-[120px] max-w-full text-nice bg-white border-2  border-nice rounded-lg after:z-10 px-5
+        class="absolute left-1/2 -translate-x-1/2 p-2 min-w-[232px] max-w-full text-nice bg-white border-2  border-nice rounded-lg after:z-10 px-4
           after:absolute after:-bottom-[10.5px] after:left-1/2 after:-translate-x-1/2 after:border-t-nice after:border-t-2 after:border-solid
           after:border-r-nice after:bg-white after:border-r-2 after:w-[16px] after:h-[17px] after:rotate-[135deg] after:-skew-x-[18deg]
           after:-skew-y-[18deg]
