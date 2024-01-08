@@ -28,7 +28,7 @@ export default {
         'mainvisual-zoom-out': 'mainvisual-zoom-out 8s linear 0s 1 normal both',
         'scroll-active': 'scroll-active 1.4s ease-in-out infinite',
         'nice-active': 'nice-active 0.8s ease   both',
-        'fade-in-bottom': 'fade-in-bottom 0.6s ease-out   both',
+        'fade-up': 'fade-up 0.5s ease-out   both',
       },
       keyframes: {
         'logo-zoom-out': {
@@ -77,22 +77,19 @@ export default {
         },
         'nice-active': {
           '0%,to': {
-            transform: 'scale3d(1, 1, 1)'
-          },
-          '5%': {
             transform: 'scale3d(.9, .9, .9)'
           },
           '75%': {
             transform: 'scale3d(1, 1, 1)'
           }
         },
-        'fade-in-bottom': {
+        'fade-up': {
           '0%': {
-            transform: 'translateY(50px)',
+            top: '64px',
             opacity: '0',
           },
           to: {
-            transform: 'translateY(0)',
+            top: '-64px',
             opacity: '1',
           },
         },
