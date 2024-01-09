@@ -43,17 +43,17 @@
           </p>
 
           <p class="mb-10 tracking-tighter sm:tracking-normal">
-            学校生活、住まいや引越しのこと、結婚や出<br class="block sm:hidden">産、<br class="hidden sm:block">
+            学校生活、住まいや引越しのこと、結婚や出産、<br class="hidden sm:block">
             資産形成、家族の介護や終活について。<br>
             人々があらゆる悩みや課題を乗りこえ、<br class="hidden sm:block">
-            今日<br class="block sm:hidden">よりもっとしあわせな暮らしを混んでくれた<br class="block sm:hidden">ら。<br>
+            今日よりもっとしあわせな暮らしを混んでくれたら。<br>
             そして、一人ひとりの暮らしが変われば、<br>
             きっと世界も豊かになるはず。
           </p>
 
           <p class="tracking-tighter sm:tracking-normal">
             そんな社会を目指して、<br class="hidden sm:block">
-            私たちはこれからも<br class="block sm:hidden">「解決」に挑み続けます。
+            私たちはこれからも「解決」に挑み続けます。
           </p>
         </Saos>
     </div>

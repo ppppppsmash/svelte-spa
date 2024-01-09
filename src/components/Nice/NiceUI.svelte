@@ -59,7 +59,7 @@
     <button
       class="text-nice rounded-full border-[3px] border-solid border-nice
         w-[136px] h-[136px] flex flex-col justify-center items-center gap-y-1
-        group sm:hover:bg-nice sm:hover:cursor-pointer duration-300 mx-auto mt-7"
+        group hover:bg-nice sm:hover:cursor-pointer duration-300 mx-auto mt-7"
       tabindex="0"
       aria-pressed="false"
       on:mouseenter={heartToggle}
@@ -67,15 +67,14 @@
       on:click={heartClick}
       class:animate-nice-active={heartAnimateFlg}
     >
-      <div
-      >
+      <div>
         <HeartRegular
           class="w-[34px] h-[31px] hover:scale-[1.15]
-            duration-150 {heartRegularFlg ? 'block' : 'hidden'} sm:focus:outline-none"
+            duration-150 {heartRegularFlg ? 'block' : 'hidden'}"
         />
         <HeartSolid
           class="w-[34px] h-[31px] text-white hover:scale-[1.15]
-            duration-150 {heartRegularFlg ? 'hidden' : 'block'} sm:focus:outline-none"
+            duration-150 {heartRegularFlg ? 'hidden' : 'block'}"
         />
       </div>
       <p class="text-[18px] font-bold group-hover:text-white">いいね!</p>

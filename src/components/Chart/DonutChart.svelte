@@ -62,7 +62,7 @@
   });
 </script>
 
-<section class="relative animate-fade-up animate-once">
+<section class="relative sm:!mt-24 mt-28 -mb-14 sm:mb-0 animate-fade-up animate-once">
   <svg
     {width}
     {height}
