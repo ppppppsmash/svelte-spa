@@ -10,7 +10,7 @@
     <div class="sm:grid grid-cols-4">
       <div class="col-span-3 col-start-2 lg:w-[736px]">
         <div class="text-center sm:flex-row-reverse sm:flex sm:justify-start sm:items-center sm:gap-x-4">
-          <h2 class="text-primary font-light text-[74px] sm:text-[145px]">
+          <h2 class="text-primary font-unica text-[74px] sm:text-[145px]">
             Vision
           </h2>
           <div class="mt-1 sm:mt-8 mb-10 sm:mb-0">

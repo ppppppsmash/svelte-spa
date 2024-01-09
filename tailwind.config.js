@@ -7,6 +7,16 @@ export default {
     './src/**/*.{html,js,svelte,ts}',
   ],
   theme: {
+    fontFamily: {
+      body: [
+        'YuGothic',
+        'Yu Gothic',
+        'Hiragino Sans',
+        'Noto Sans JP',
+        'sans-serif'
+      ],
+      unica: ['Neue Haas Unica']
+    },
     colors: {
       'primary': '#0A338A',
       'secondary': '#208CE5',

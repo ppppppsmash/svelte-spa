@@ -18,7 +18,7 @@
 </script>
 
 <svelte:head>
-	<title>Statement</title>
+	<title>Statement｜株式会社ウェブクルー</title>
 	<meta name="description" content="Webcrew 新規コーポーレートページ" />
 </svelte:head>
 

@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('Neue Haas Unica Thin'), local('Neue-Haas-Unica-Thin'),
+        url('NeueHaasUnica-Thin.woff2') format('woff2'),
+        url('NeueHaasUnica-Thin.woff') format('woff'),
+        url('NeueHaasUnica-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('Neue Haas Unica Light'), local('Neue-Haas-Unica-Light'),
+        url('NeueHaasUnica-Light.woff2') format('woff2'),
+        url('NeueHaasUnica-Light.woff') format('woff'),
+        url('NeueHaasUnica-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('Neue Haas Unica Regular'), local('Neue-Haas-Unica-Regular'),
+        url('NeueHaasUnica-Regular.woff2') format('woff2'),
+        url('NeueHaasUnica-Regular.woff') format('woff'),
+        url('NeueHaasUnica-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

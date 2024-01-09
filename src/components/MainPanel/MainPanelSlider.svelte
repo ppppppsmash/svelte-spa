@@ -33,10 +33,10 @@
       after:border-l-0 px-6 py-9
     "
     >
-      <p class="text-[28px] sm:text-[40px] font-semibold title-outline leading-[1.3] mb-3 sm:mb-0">
+      <p class="text-[28px] sm:text-[40px] font-bold title-outline leading-[1.3] mb-3 sm:mb-0">
         見えないものを<br class="block sm:hidden">見えるように
       </p>
-      <p class="text-[28px] sm:text-[40px] font-semibold title-outline leading-[1.3]">
+      <p class="text-[28px] sm:text-[40px] font-bold title-outline leading-[1.3]">
         わかりにくいものを<br class="block sm:hidden">わかりやすく
       </p>
     </div>

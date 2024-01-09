@@ -75,7 +75,7 @@
   <div>
     <div class="lg:w-[736px]">
       <div class="text-center sm:flex sm:justify-start sm:items-center sm:gap-x-4">
-        <h2 class="text-primary font-light text-[74px] sm:text-[145px] leading-[52px] sm:leading-normal">
+        <h2 class="text-primary font-unica text-[74px] sm:text-[145px] leading-[52px] sm:leading-normal">
           Achieve<br class="block sm:hidden">ments
         </h2>
         <div class="mt-8 sm:mt-8 mb-10 sm:mb-0">

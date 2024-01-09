@@ -5,7 +5,7 @@
 
   let heartRegularFlg = true;
   let heartAnimateFlg = false;
-  let messageFlg = true;
+  let messageFlg = false;
   let clickCount = 0;
 
   const heartToggle = () => {
