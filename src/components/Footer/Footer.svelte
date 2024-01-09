@@ -150,8 +150,8 @@
   <Breadcrumb />
 
   <div class="sm:w-[980px] mx-auto px-0 pt-[43px] text-sm">
-    <div class="grid grid-cols-1 pb-[26px] border-b-[1px] border-solid sm:border-line">
-      <div class="flex justify-center sm:justify-between items-center mb-[30px] order-2 sm:order-1">
+    <div class="grid grid-cols-1 pb-0 sm:pb-[26px] sm:border-b-[1px] border-solid sm:border-line">
+      <div class="flex justify-center sm:justify-between items-center mb-0 sm:mb-[30px] order-2 sm:order-1">
         <a
           class="w-[136px] hidden sm:block"
           href="/"
@@ -221,6 +221,12 @@
         first={true}
         elements={sitemaps5}
       />
+    </div>
+
+    <div class="py-[30px] bg-primary sm:bg-transparent">
+      <small class="w-full mx-auto block text-center sm:text-right text-white sm:text-black text-[10px] sm:text-[11px]">
+        Copyright © 1999 WebCrew Inc. All rights reserved.
+      </small>
     </div>
   </div>
 </section>

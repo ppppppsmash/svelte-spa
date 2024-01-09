@@ -18,8 +18,8 @@
 </script>
 
 <svelte:head>
-	<title>Statement｜株式会社ウェブクルー</title>
-	<meta name="description" content="Webcrew 新規コーポーレートページ" />
+	<title>ウェブクルーの宣言｜株式会社ウェブクルー</title>
+	<meta name="description" content="株式会社ウェブクルーのビジネスを支える、経営理念・経営ビジョン・行動指針や、ビジネスモデルをご紹介します。" />
 </svelte:head>
 
 {#if showPrefaceLogo}

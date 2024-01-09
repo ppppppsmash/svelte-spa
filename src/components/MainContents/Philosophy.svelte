@@ -10,7 +10,7 @@
     <div class="sm:grid grid-cols-4">
       <div class="col-span-3 col-stasrt-1 lg:w-[736px]">
         <div class="text-center sm:flex sm:justify-start sm:items-center sm:gap-x-4">
-          <h2 class="text-primary font-unica text-[74px] sm:text-[145px]">
+          <h2 class="text-primary font-unica text-[68px] sm:text-[145px] -tracking-[4px] sm:tracking-normal">
             Philosophy
           </h2>
           <div class="mt-1 sm:mt-8 mb-10 sm:mb-0">
