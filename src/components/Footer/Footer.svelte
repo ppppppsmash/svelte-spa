@@ -12,11 +12,15 @@
       url: 'https://www.webcrew.co.jp/info/privacy.html'
     },
     {
+      name: '情報セキュリティ基本方針',
+      url: 'https://www.webcrew.co.jp/company/security.html'
+    },
+    {
       name: 'アフィリエイトプログラム',
       url: 'https://partner.zba.jp/zubatasp/'
     },
     {
-      name: '利用お問い合わせ規約',
+      name: 'お問い合わせ',
       url: 'https://www.webcrew.co.jp/contact/'
     },
     {
@@ -145,11 +149,11 @@
 <section class="w-full bg-white">
   <Breadcrumb />
 
-  <div class="sm:w-[980px] mx-auto px-[24px] sm:px-0 pt-[43px] text-sm">
-    <div class="pb-[26px] border-b-[1px] border-solid border-line">
-      <div class="flex justify-between items-center mb-[30px]">
+  <div class="sm:w-[980px] mx-auto px-0 pt-[43px] text-sm">
+    <div class="grid grid-cols-1 pb-[26px] border-b-[1px] border-solid sm:border-line">
+      <div class="flex justify-center sm:justify-between items-center mb-[30px] order-2 sm:order-1">
         <a
-          class="w-[136px]"
+          class="w-[136px] hidden sm:block"
           href="/"
         >
           <img
@@ -159,10 +163,10 @@
           >
         </a>
 
-        <div class="flex gap-x-2">
+        <div class="flex gap-x-10 sm:gap-x-2 py-8 sm:py-0">
           <a
             href="/"
-            class="w-[30px]"
+            class="w-[47px] h-[47px] sm:w-[30px] sm:h-[30px]"
           >
             <img
               class="w-full h-auto"
@@ -172,7 +176,7 @@
           </a>
           <a
             href="/"
-            class="w-[30px]"
+            class="w-[47px] h-[47px] sm:w-[30px] sm:h-[30px]"
           >
             <img
               class="w-full h-auto"
@@ -183,31 +187,36 @@
         </div>
       </div>
 
-      <SiteMap elements={sitemaps1} />
+      <div class="order-1 sm:order-2">
+        <SiteMap
+          hiddenOrder={3}
+          elements={sitemaps1}
+        />
+      </div>
     </div>
 
-    <div class="py-[22px]">
+    <div class="hidden sm:block py-[22px]">
       <SiteMap
         all={true}
         elements={sitemaps2}
       />
     </div>
 
-    <div class="pb-[22px]">
+    <div class="hidden sm:block pb-[22px]">
       <SiteMap
         first={true}
         elements={sitemaps3}
       />
     </div>
 
-    <div class="pb-[22px]">
+    <div class="hidden sm:block pb-[22px]">
       <SiteMap
         first={true}
         elements={sitemaps4}
       />
     </div>
 
-    <div class="pb-[22px]">
+    <div class="hidden sm:block pb-[22px]">
       <SiteMap
         first={true}
         elements={sitemaps5}
