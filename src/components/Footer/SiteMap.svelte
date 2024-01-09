@@ -2,14 +2,14 @@
   export let elements;
   export let first = false;
   export let all = false;
-  export let hiddenOrder = 0;
+  export let ThirdElementHidden = false;
 </script>
 
 <nav>
   <ul
     class="w-full flex flex-wrap gap-x-[1px] gap-y-[2px] sm:gap-x-[22px] sm:gap-y-0
       items-center justify-between sm:justify-start
-      {hiddenOrder != 0 ? `sm:[&>*:nth-child(3)]:hidden` : ''}"
+      {ThirdElementHidden ? `sm:[&>*:nth-child(3)]:hidden` : ''}"
   >
     {#each elements as element}
     <li

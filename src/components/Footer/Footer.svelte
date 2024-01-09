@@ -189,7 +189,7 @@
 
       <div class="order-1 sm:order-2">
         <SiteMap
-          hiddenOrder={3}
+          ThirdElementHidden={true}
           elements={sitemaps1}
         />
       </div>
