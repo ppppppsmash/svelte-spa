@@ -28,13 +28,13 @@
           once={true}
           animation={'fade-in-bottom 2s ease-out   both'}
         >
-          <p class="mb-10">
+          <p class="mb-10 tracking-tighter sm:tracking-normal">
             人生に訪れるあらゆる決断のとき、<br>
             より良い選択をすることが、<br>
             有意義で豊かな暮らしにつながるはず。
           </p>
 
-          <p class="mb-10">
+          <p class="mb-10 tracking-tighter sm:tracking-normal">
             こんな想いから、1998年、<br>
             比較サイト「bang!」を立ち上げました。<br>
             それ以降、最適な決断のサポートを変わらぬ<br class="block sm:hidden">使命とし、<br>
@@ -42,7 +42,7 @@
             手をたずさえながらサービスを展開してきま<br class="block sm:hidden">した。
           </p>
 
-          <p class="mb-10">
+          <p class="mb-10 tracking-tighter sm:tracking-normal">
             学校生活、住まいや引越しのこと、結婚や出<br class="block sm:hidden">産、<br class="hidden sm:block">
             資産形成、家族の介護や終活について。<br>
             人々があらゆる悩みや課題を乗りこえ、<br class="hidden sm:block">
@@ -51,7 +51,7 @@
             きっと世界も豊かになるはず。
           </p>
 
-          <p>
+          <p class="tracking-tighter sm:tracking-normal">
             そんな社会を目指して、<br class="hidden sm:block">
             私たちはこれからも<br class="block sm:hidden">「解決」に挑み続けます。
           </p>

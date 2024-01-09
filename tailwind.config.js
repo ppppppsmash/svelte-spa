@@ -95,11 +95,11 @@ export default {
         },
         'fade-up': {
           '0%': {
-            top: '64px',
+            top: '74px',
             opacity: '0',
           },
           to: {
-            top: '-64px',
+            top: '-74px',
             opacity: '1',
           },
         },
